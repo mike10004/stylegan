@@ -1,0 +1,4 @@
+pillow
+typeguard
+tensorflow-gpu
+requests
