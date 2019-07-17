@@ -9,7 +9,8 @@ Install the `build-essential` package. // TODO install gcc 6 instead of 7
 ## NVIDIA prep
 
 Follow instructions for installation of CUDA 9, the 17.04 network version. 
-Install `cuda-9-0` instead of just `cuda`. You'll
+(Go to https://developer.nvidia.com/cuda-toolkit-archive to browse CUDA 
+installation guides.) Install `cuda-9-0` instead of just `cuda`. You'll
 run into a problem with one package, `nvidia-390`, which wants to overwrite a 
 file from another package, `libglx-mesa0`. See https://bugs.launchpad.net/ubuntu/+source/nvidia-graphics-drivers-390/+bug/1753796 
 for details. Execute 
